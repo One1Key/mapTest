@@ -7,16 +7,23 @@
 //
 
 #import "AppDelegate.h"
+#import "ViewController.h"
+#import "LocateController.h"
 
 @interface AppDelegate ()
 
 @end
 
 @implementation AppDelegate
-
+@synthesize window;
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    
+    window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    window.backgroundColor = [UIColor whiteColor];
+    window.rootViewController = [[LocateController alloc] init];
+    [window makeKeyAndVisible];
+    
     return YES;
 }
 

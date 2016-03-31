@@ -7,14 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FA3FEDD01C3CB0F2003742E1 /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = FA3FEDCF1C3CB0F2003742E1 /* UIView+Extension.m */; };
 		FA638D571C16A30100C29850 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FA638D561C16A30100C29850 /* main.m */; };
 		FA638D5A1C16A30100C29850 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FA638D591C16A30100C29850 /* AppDelegate.m */; };
 		FA638D5D1C16A30100C29850 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA638D5C1C16A30100C29850 /* ViewController.m */; };
 		FA638D601C16A30100C29850 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA638D5E1C16A30100C29850 /* Main.storyboard */; };
 		FA638D621C16A30100C29850 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA638D611C16A30100C29850 /* Assets.xcassets */; };
 		FA638D651C16A30100C29850 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA638D631C16A30100C29850 /* LaunchScreen.storyboard */; };
-		FA638D701C16A30200C29850 /* mapTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FA638D6F1C16A30200C29850 /* mapTestTests.m */; };
-		FA638D7B1C16A30200C29850 /* mapTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FA638D7A1C16A30200C29850 /* mapTestUITests.m */; };
+		FA638D8A1C16C52700C29850 /* MineMKAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = FA638D891C16C52700C29850 /* MineMKAnnotation.m */; };
+		FAF004E41C1FBCA200C5A2E4 /* LocateController.m in Sources */ = {isa = PBXBuildFile; fileRef = FAF004E31C1FBCA200C5A2E4 /* LocateController.m */; };
+		FAF565141C3B70450031D5A5 /* NSArray+Log.m in Sources */ = {isa = PBXBuildFile; fileRef = FAF565131C3B70450031D5A5 /* NSArray+Log.m */; };
+		FAF565171C3B70760031D5A5 /* NSDictionary+Log.m in Sources */ = {isa = PBXBuildFile; fileRef = FAF565161C3B70760031D5A5 /* NSDictionary+Log.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +38,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FA3FEDCE1C3CB0F2003742E1 /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
+		FA3FEDCF1C3CB0F2003742E1 /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
 		FA638D521C16A30100C29850 /* mapTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mapTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA638D561C16A30100C29850 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		FA638D581C16A30100C29850 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -46,11 +51,15 @@
 		FA638D641C16A30100C29850 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FA638D661C16A30100C29850 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FA638D6B1C16A30200C29850 /* mapTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mapTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		FA638D6F1C16A30200C29850 /* mapTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = mapTestTests.m; sourceTree = "<group>"; };
-		FA638D711C16A30200C29850 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FA638D761C16A30200C29850 /* mapTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mapTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		FA638D7A1C16A30200C29850 /* mapTestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = mapTestUITests.m; sourceTree = "<group>"; };
-		FA638D7C1C16A30200C29850 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA638D881C16C52700C29850 /* MineMKAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MineMKAnnotation.h; sourceTree = "<group>"; };
+		FA638D891C16C52700C29850 /* MineMKAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MineMKAnnotation.m; sourceTree = "<group>"; };
+		FAF004E21C1FBCA200C5A2E4 /* LocateController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocateController.h; sourceTree = "<group>"; };
+		FAF004E31C1FBCA200C5A2E4 /* LocateController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocateController.m; sourceTree = "<group>"; };
+		FAF565121C3B70450031D5A5 /* NSArray+Log.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+Log.h"; sourceTree = "<group>"; };
+		FAF565131C3B70450031D5A5 /* NSArray+Log.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Log.m"; sourceTree = "<group>"; };
+		FAF565151C3B70760031D5A5 /* NSDictionary+Log.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+Log.h"; sourceTree = "<group>"; };
+		FAF565161C3B70760031D5A5 /* NSDictionary+Log.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+Log.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,12 +87,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FA3FEDF41C3CE6CB003742E1 /* Cat */ = {
+			isa = PBXGroup;
+			children = (
+				FAF565121C3B70450031D5A5 /* NSArray+Log.h */,
+				FAF565131C3B70450031D5A5 /* NSArray+Log.m */,
+				FAF565151C3B70760031D5A5 /* NSDictionary+Log.h */,
+				FAF565161C3B70760031D5A5 /* NSDictionary+Log.m */,
+				FA3FEDCE1C3CB0F2003742E1 /* UIView+Extension.h */,
+				FA3FEDCF1C3CB0F2003742E1 /* UIView+Extension.m */,
+			);
+			name = Cat;
+			sourceTree = "<group>";
+		};
 		FA638D491C16A30100C29850 = {
 			isa = PBXGroup;
 			children = (
 				FA638D541C16A30100C29850 /* mapTest */,
-				FA638D6E1C16A30200C29850 /* mapTestTests */,
-				FA638D791C16A30200C29850 /* mapTestUITests */,
 				FA638D531C16A30100C29850 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -105,6 +125,11 @@
 				FA638D591C16A30100C29850 /* AppDelegate.m */,
 				FA638D5B1C16A30100C29850 /* ViewController.h */,
 				FA638D5C1C16A30100C29850 /* ViewController.m */,
+				FAF004E21C1FBCA200C5A2E4 /* LocateController.h */,
+				FAF004E31C1FBCA200C5A2E4 /* LocateController.m */,
+				FA638D881C16C52700C29850 /* MineMKAnnotation.h */,
+				FA638D891C16C52700C29850 /* MineMKAnnotation.m */,
+				FA3FEDF41C3CE6CB003742E1 /* Cat */,
 				FA638D5E1C16A30100C29850 /* Main.storyboard */,
 				FA638D611C16A30100C29850 /* Assets.xcassets */,
 				FA638D631C16A30100C29850 /* LaunchScreen.storyboard */,
@@ -120,24 +145,6 @@
 				FA638D561C16A30100C29850 /* main.m */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		FA638D6E1C16A30200C29850 /* mapTestTests */ = {
-			isa = PBXGroup;
-			children = (
-				FA638D6F1C16A30200C29850 /* mapTestTests.m */,
-				FA638D711C16A30200C29850 /* Info.plist */,
-			);
-			path = mapTestTests;
-			sourceTree = "<group>";
-		};
-		FA638D791C16A30200C29850 /* mapTestUITests */ = {
-			isa = PBXGroup;
-			children = (
-				FA638D7A1C16A30200C29850 /* mapTestUITests.m */,
-				FA638D7C1C16A30200C29850 /* Info.plist */,
-			);
-			path = mapTestUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -271,7 +278,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				FA638D5D1C16A30100C29850 /* ViewController.m in Sources */,
+				FAF004E41C1FBCA200C5A2E4 /* LocateController.m in Sources */,
+				FA638D8A1C16C52700C29850 /* MineMKAnnotation.m in Sources */,
+				FAF565171C3B70760031D5A5 /* NSDictionary+Log.m in Sources */,
+				FAF565141C3B70450031D5A5 /* NSArray+Log.m in Sources */,
 				FA638D5A1C16A30100C29850 /* AppDelegate.m in Sources */,
+				FA3FEDD01C3CB0F2003742E1 /* UIView+Extension.m in Sources */,
 				FA638D571C16A30100C29850 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -280,7 +292,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FA638D701C16A30200C29850 /* mapTestTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,7 +299,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FA638D7B1C16A30200C29850 /* mapTestUITests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -414,6 +424,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = mapTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = yang.mapTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -425,6 +436,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = mapTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = yang.mapTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -498,6 +510,7 @@
 				FA638D811C16A30200C29850 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FA638D821C16A30200C29850 /* Build configuration list for PBXNativeTarget "mapTestTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +519,7 @@
 				FA638D841C16A30200C29850 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FA638D851C16A30200C29850 /* Build configuration list for PBXNativeTarget "mapTestUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +528,7 @@
 				FA638D871C16A30200C29850 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
